@@ -20,7 +20,8 @@ setuptools.setup(
 	keywords=['jupyter', 'glances', 'jupyterhub'],
 	classifiers=['Framework :: Jupyter'],
     install_requires=[
-        'jupyter-server-proxy>=1.5.0'
+        'jupyter-server-proxy',
+        'glances'
     ],
     entry_points={
         'jupyter_serverproxy_servers': [
