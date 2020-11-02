@@ -29,6 +29,6 @@ setuptools.setup(
         ]
     },
     package_data={
-        'jupyter_glances_proxy': ['icons/glances.png'],
+        'jupyter_glances_proxy': ['icons/*'],
     },
 )

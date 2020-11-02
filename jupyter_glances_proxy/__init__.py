@@ -8,6 +8,7 @@ def setup_glances():
         'command': _get_glances_cmd,
         'launcher_entry': {
             'title': 'Glances',
-            'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)), 'icons', 'glances.png')
+            'icon_path': os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                      'icons', 'glances.png')
         }
     }
